@@ -25,6 +25,7 @@ img {
 /* Buttons */
 
 .cta-btn {
+    width: 120px;
     background-color: #3882f6;
     border-radius: 8px;
     border: 0;
@@ -57,19 +58,26 @@ img {
 
 .hero_wrap {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 0;
 }
 
 .hero-text_wrap {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    gap: 10px;
 }
 
 .text-secondary {
-
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .hero-img_wrap {
     border-radius: 8px;
     overflow: hidden;
+    flex: 1;
 }
 
