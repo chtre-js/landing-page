@@ -25,7 +25,12 @@ img {
 /* Buttons */
 
 .cta-btn {
-    
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: 0;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 17px;
 }
 
 
