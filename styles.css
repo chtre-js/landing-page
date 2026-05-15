@@ -64,6 +64,7 @@ img {
 }
 
 .hero-img_wrap {
-
+    border-radius: 8px;
+    overflow: hidden;
 }
 
