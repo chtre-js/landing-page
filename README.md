@@ -2,4 +2,4 @@
 
 This is a project to validate basic knowledge in HTML/CSS by reproducing a landing page, based on reference images.
 
-*No responsiveness.*
+*Hero image : Evan Qu on Unsplash (@wenhong)*
