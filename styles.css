@@ -34,7 +34,7 @@ img {
 
 .header_wrap,
 .hero_wrap,
-.info_wrap {
+.info_wrap, .quote_wrap {
   padding: 15px 60px;
 }
 
@@ -126,4 +126,26 @@ img {
   overflow: hidden;
   border-radius: 8px;
   border: 3px solid #3882f6;
+}
+
+/* Quote section */
+
+.quote_wrap {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+
+.quote {
+    color: #1f2937;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.author {
+    color: #1f2937;
+    margin-left: auto;
+    font-weight: bold;
+    
 }
