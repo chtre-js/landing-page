@@ -20,6 +20,12 @@ img {
 }
 
 /* Global */
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  align-items: center;
+}
 
 .cta-btn {
   width: 120px;
@@ -39,6 +45,7 @@ img {
 .cta_wrap,
 .footer_wrap {
   padding: 15px 60px;
+  width: 100%;
 }
 
 /* Header */
@@ -65,9 +72,10 @@ img {
 .hero_wrap {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   background-color: #1f2937;
   padding: 70px;
+  max-width: 1000px;
 }
 
 .hero-text_wrap {
@@ -75,6 +83,7 @@ img {
   flex-direction: column;
   flex: 1;
   gap: 10px;
+  margin: 0;
 }
 
 .text-secondary {
@@ -162,6 +171,7 @@ img {
   justify-content: center;
   align-items: center;
   padding: 70px;
+  background-color: white;
 }
 
 .cta-card_wrap {
