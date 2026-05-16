@@ -28,7 +28,7 @@ body {
 }
 
 .cta-btn {
-  width: 120px;
+  width: 200px;
   background-color: #3882f6;
   border-radius: 8px;
   border: 0;
@@ -46,6 +46,10 @@ body {
 .footer_wrap {
   padding: 15px 60px;
   width: 100%;
+}
+
+strong {
+  color: #1f2937;
 }
 
 /* Header */
@@ -75,7 +79,8 @@ body {
   align-items: center;
   background-color: #1f2937;
   padding: 70px;
-  max-width: 1000px;
+  gap: 30px;
+  max-width: 1200px;
 }
 
 .hero-text_wrap {
@@ -106,7 +111,7 @@ body {
   justify-content: center;
   align-items: center;
   color: #1f2937;
-  gap: 25px;
+  gap: 50px;
   padding: 70px;
 }
 
@@ -114,18 +119,13 @@ body {
   color: #1f2937;
 }
 
-.card-description {
-  color: #1f2937;
-  width: 120px;
-  text-align: center;
-}
-
 .cards-list_wrap {
+  width: 100%;
+  max-width: 1200px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-around;
   color: #1f2937;
-  gap: 20px;
 }
 
 .card-wrap {
@@ -136,10 +136,16 @@ body {
 
 .card-img_wrap {
   aspect-ratio: 1;
-  width: 120px;
+  width: 160px;
   overflow: hidden;
   border-radius: 8px;
-  border: 3px solid #3882f6;
+  border: 3px solid #1f2937;
+}
+
+.card-description {
+  color: #1f2937;
+  max-width: 160px;
+  text-align: center;
 }
 
 /* Quote section */
@@ -147,7 +153,9 @@ body {
 .quote_wrap {
   background-color: #e5e7eb;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
   gap: 10px;
   padding: 70px;
 }
@@ -175,6 +183,7 @@ body {
 }
 
 .cta-card_wrap {
+  max-width: 1200px;
   display: flex;
   gap: 40px;
   background-color: #3882f6;
@@ -183,6 +192,7 @@ body {
 }
 
 .cta-btn.is_border {
+  width: 120px;
   border: 2px solid #f9faf8;
 }
 
