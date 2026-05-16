@@ -160,6 +160,15 @@ strong {
   padding: 70px;
 }
 
+.quote-text_wrap {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
 .quote {
   color: #1f2937;
   font-weight: 300;
