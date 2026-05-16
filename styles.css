@@ -34,7 +34,7 @@ img {
 
 .header_wrap,
 .hero_wrap,
-.info_wrap, .quote_wrap, .cta_wrap {
+.info_wrap, .quote_wrap, .cta_wrap, .footer_wrap {
   padding: 15px 60px;
 }
 
@@ -169,3 +169,18 @@ img {
 .cta-btn.is_border {
     border: 2px solid #f9faf8;
 }
+
+/* Footer */
+
+.footer_wrap {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer_wrap div {
+  color: #f9faf8;
+}
+
