@@ -34,7 +34,7 @@ img {
 
 .header_wrap,
 .hero_wrap,
-.info_wrap, .quote_wrap {
+.info_wrap, .quote_wrap, .cta_wrap {
   padding: 15px 60px;
 }
 
@@ -148,4 +148,24 @@ img {
     margin-left: auto;
     font-weight: bold;
     
+}
+
+/* CTA section */
+
+.cta_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-card_wrap {
+    display: flex;
+    gap: 40px;
+    background-color: #3882f6;
+    border-radius: 4px;
+    padding: 25px 50px;
+}
+
+.cta-btn.is_border {
+    border: 2px solid #f9faf8;
 }
